@@ -1,0 +1,33 @@
+.images img{
+    width: 250px;
+    height: 250px;
+    transition: all .5s ease-in;
+    border: 5px solid black;
+    border-radius: 100px;
+}
+
+
+
+.images img:nth-child(1):hover{
+    transform: rotate(360deg);
+    transition: all .3s ease-in;
+    border: 5px solid black;
+    border-radius: 0px;
+}
+
+.images img:nth-child(2):hover{
+    transform: rotate(180deg);
+    transition: all .3s ease-out;
+    border: 5px solid black;
+    border-radius: 0px;
+}
+.box{
+    height: 140px;
+    width: 300px;
+    background-color: red;
+    transition: all .8s ease-out;
+}
+.box:hover{
+    width: 900px;
+    transition: all .8s ease-out;
+}
